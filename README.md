@@ -1,34 +1,37 @@
-# Sensor-Box — Datenschutzerklärung
+# Sensor-Box: Datenschutzerklärung
 
-> **Projektstatus: beendet (September 2026).** Sensor-Box war ein Experiment und wird
-> abgebaut. Der Play-Eintrag wird unveroeffentlicht, das App-Repo wird archiviert.
-> **Diese Seite bleibt vorerst online** (siehe Abbau unten).
+> **Archiviert (Oktober 2026).** Dieses Projekt wird nicht mehr weiterentwickelt.
+> Der Code bleibt als Referenz lesbar. Issues und Pull Requests sind geschlossen.
 
-Beherbergt die Datenschutzerklärung der **Sensor-Box**-Android-App
-(`com.farbig.sensorbox`), ausgeliefert über GitHub Pages.
+Dieses Repo stellt die Datenschutzerklärung der Android-App Sensor-Box (`com.farbig.sensorbox`) über
+GitHub Pages bereit. Google Play verlangt dafür eine öffentlich erreichbare Adresse. Die App selbst liegt
+in [SensorBox](https://github.com/Bladeage/SensorBox).
 
-**Live:** https://bladeage.github.io/sensorbox-privacy/
+## Funktionen
 
-`index.html` ist die zweisprachige Erklärung (DE + EN) und zugleich die
-maßgebliche Fassung — anders als bei `blaustart-privacy` liegt hier keine
-Kopie im App-Repo. Änderungen also direkt hier vornehmen und die
-Stand-Angabe im Dokument mitziehen (derzeit: Juni 2026).
+- Zweisprachige Datenschutzerklärung (Deutsch und Englisch) in einer Seite.
+- Ausgeliefert unter https://bladeage.github.io/sensorbox-privacy/
 
-Die URL ist in der Play-Store-Eintragung der App hinterlegt; sie darf sich
-nicht ändern, ohne dass der Store-Eintrag nachgezogen wird.
+## Stand
 
-Die App selbst liegt in [`SensorBox`](https://github.com/Bladeage/SensorBox).
+- Das Projekt Sensor-Box ist seit September 2026 beendet.
+- `index.html` ist die maßgebliche Fassung, im App-Repo liegt keine Kopie. Stand-Angabe im Dokument: Juni 2026.
+- Die URL ist im Play-Store-Eintrag der App hinterlegt. Solange die App in Play gelistet ist, muss die
+  Seite erreichbar bleiben.
+- Die Seite ist noch online. Geplante Reihenfolge beim Abbau: erst den Play-Eintrag unveröffentlichen,
+  dann GitHub Pages abschalten. **[Bitte prüfen: Ist der Play-Eintrag unveröffentlicht? Dann Pages abschalten.]**
+- Rückweg: Pages wieder aktivieren, die URL bleibt gleich.
+- Die vollständige Abbau-Liste steht in
+  [SensorBox/docs/projekt-abbau.md](https://github.com/Bladeage/SensorBox/blob/main/docs/projekt-abbau.md).
 
-## Abbau dieses Repos
+## Voraussetzungen und Start
 
-Reihenfolge ist wichtig. Solange die App in Play gelistet ist, muss die
-Datenschutz-URL erreichbar bleiben.
+Kein Build. GitHub Pages veröffentlicht `index.html` aus dem Standard-Branch direkt.
 
-1. [ ] Warten, bis die App in der Play Console auf **Nicht veroeffentlicht** steht.
-2. [ ] GitHub Pages abschalten: Settings → Pages → Source auf *None*.
-3. [ ] Repo archivieren: Settings → General → *Archive this repository*.
+## Projektstruktur
 
-Rueckweg: Pages wieder aktivieren, Repo entarchivieren. Die URL bleibt dabei gleich.
+- `index.html` die Datenschutzerklärung
 
-Die vollstaendige Abbau-Liste des Projekts steht in
-[`SensorBox/docs/projekt-abbau.md`](https://github.com/Bladeage/SensorBox/blob/main/docs/projekt-abbau.md).
+## Lizenz
+
+Keine Lizenz. Alle Rechte vorbehalten.
